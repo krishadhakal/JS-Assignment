@@ -6,6 +6,7 @@ document.addEventListener('DOMContentLoaded', function(){
     speed: 400,
     mousewheel: {
       forceToAxis: true,
+      thresholdDelta: 5, //swiper will wait for user to swipe atleast 5 pixels
     },
     scrollbar: {
       el: ".swiper-scrollbar",
