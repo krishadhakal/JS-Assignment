@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function(){
     loop: true,
     speed: 400,
     mousewheel: {
-      invert: true,
+      forceToAxis: true,
     },
     scrollbar: {
       el: ".swiper-scrollbar",
